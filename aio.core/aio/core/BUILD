@@ -2,8 +2,8 @@
 pytooling_library(
     "aio.core",
     dependencies=[
-        "//deps:abstracts",
-        "//deps:trycast",
+        "deps#abstracts",
+        "deps#trycast",
     ],
     sources=[
         "__init__.py",

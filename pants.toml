@@ -1,6 +1,6 @@
 [GLOBAL]
 pythonpath = ["%(buildroot)s/pants-pytooling"]
-pants_version = "2.9.0"
+pants_version = "2.10.0"
 backend_packages = [
     "pants.backend.python",
     "pants.backend.python.lint.docformatter",
@@ -14,6 +14,7 @@ build_file_prelude_globs = [
   "pants-pytooling/macros.py",
 ]
 plugins = ["jinja2"]
+use_deprecated_python_macros = false
 
 [python]
 interpreter_constraints = [">=3.10.0"]

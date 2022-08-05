@@ -2,7 +2,7 @@
 pytooling_tests(
     "pytest-abstracts",
     dependencies=[
-        "//deps:abstracts",
+        "deps#abstracts",
     ],
 )
 

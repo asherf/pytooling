@@ -2,11 +2,11 @@
 pytooling_library(
     "aio.api.github",
     dependencies=[
-        "//deps:abstracts",
-        "//deps:aio.core",
-        "//deps:aiohttp",
-        "//deps:gidgethub",
-        "//deps:packaging",
+        "deps#abstracts",
+        "deps#aio.core",
+        "deps#aiohttp",
+        "deps#gidgethub",
+        "deps#packaging",
     ],
     sources=[
         "abstract/__init__.py",

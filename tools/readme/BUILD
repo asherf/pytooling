@@ -1,9 +1,9 @@
 python_sources(
     dependencies=[
-        "//deps:jinja2",
-        "//deps:packaging",
-        "//deps:setuptools",
-        "//deps:aio.run.runner",
+        "deps#jinja2",
+        "deps#packaging",
+        "deps#setuptools",
+        "deps#aio.run.runner",
     ],
 )
 
